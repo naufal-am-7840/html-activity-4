@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 256px;
+            font-style: normal;
+        }
+        body{
+            background-color: #C3C3C3;
+        }
+        h3{
+            margin-left: 20px;
+            color: black; 
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        .firstlayer{
+            margin-left: 15px;
+        }
+        .seclayer{
+            margin: 0px;
+            margin-left: 15px;
+        }
+        h5{
+            color: #A6A6A6;
+        }
+        span{
+            color: #A6A6A6;
+            margin: 0px;
+            margin-left: 20px;
+        }
+        .container{
+            margin: auto;
+            width: 430px;
+            height: 497px;
+            margin-top: 80px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 12px;
+            box-shadow: 2px 2px 5px;
+        }
+        img{
+            margin-left: 15px;
+            margin-top: 20px;
+            scale: 100%;
+            width: 64px;
+            height: 64px;
+            border-radius: 12px;
+        }
+        .opening{
+            display: flex;
+            flex-direction: row;
+        }
+        .partthree{
+            display: flex;
+            flex-direction: column;
+        }
+        .prealign{
+            margin-left: 220px;
+            margin-top: 10px;
+            width: 40px;
+            height: 40px;
+            scale: 100%;
+        }
+        .ftons{
+            border: 2px solid black;
+        }
+        footer{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.5;
+            text-align: center;
+            padding: 12px;
+            font-size: 12pt;
+            margin-top: 40px;
+            background-color: white;
+        }
+        .navigations{
+            margin: auto;
+            background-color: #9dd1ff;
+            height: 51px;
+            width: 180px;
+            cursor: pointer;
+            margin-top: 15px;
+            border-radius: 24px;
+            border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="opening">
+        <div class="partthree">
+            <h3>Tasks Overview</h3>
+            <span>Pending 10 tasks</span>
+        </div>
+        <img class="prealign" src="moreoption.png">
+        </div>
+        <table>
+            <tr> 
+                <div class="opening">
+                    <img src="branding.png">
+                    <div class="partthree">
+                        <h3 class="firstlayer">Project Branding</h3>
+                        <h5 class="seclayer">Project Manager</h5>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <div class="opening">
+                    <img src="pencil.png">
+                    <div class="partthree">
+                        <h3 class="firstlayer">Concept Design</h3>
+                        <h5 class="seclayer">Art Director</h5>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <div class="opening">
+                    <img src="messages.png">
+                    <div class="partthree">
+                        <h3 class="firstlayer">Functional Logics</h3>
+                        <h5 class="seclayer">Lead Developer</h5>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <div class="opening">
+                    <img src="clipwarning.png">
+                    <div class="partthree">
+                        <h3 class="firstlayer">Development</h3>
+                        <h5 class="seclayer">DevOps</h5>
+                    </div>
+                </div>
+            </tr>
+            <tr>
+                <div class="opening">
+                    <img src="contact.png">
+                    <div class="partthree">
+                        <h3 class="firstlayer">Testing</h3>
+                        <h5 class="seclayer">QA Managers</h5>
+                    </div>
+                </div>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <a href="index.html"><button class="navigations" style="margin-right: 100px;justify-content: flex-start;">Home</button></a>
+        Author: Naufal-AM Productions.
+        <a href="p2.html"><button class="navigations" style="margin-left: 100px;justify-content: flex-end;">Next Page</button></a>
+    </footer>
+</body>
+</html>
